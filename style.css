@@ -5,3 +5,12 @@ body {
 .container {
   padding: 0 2.5%;
 }
+
+.boxContainer {
+  /* display: flex; */
+}
+
+button {
+  height: 100px;
+  width: 100px;
+}

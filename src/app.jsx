@@ -1,14 +1,18 @@
-import React, { Component } from 'react'
-import { render } from 'react-dom'
+import React, { Component } from 'react';
+import { render } from 'react-dom';
+import Row from './Row.jsx';
+import Box from './Box.jsx';
+import Board from './Board.jsx'
 
 class App extends Component {
-    render() {
-      return (
+
+  render() {
+    return (
       <div>
-        <h1>Tic Tac Toe</h1>
+          <Board />
       </div>
-      )
-    }
+    )
+  }
 }
 
 render(<App />, document.getElementById('content'));
