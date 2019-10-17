@@ -19,8 +19,8 @@
     "browserify": "^10.2.4",
     "gulp": "^3.9.0",
     "gulp-notify": "^2.2.0",
-    "react": "^0.14",
-    "react-dom": "^0.14.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.2.2"
   },
